@@ -1,0 +1,20 @@
+# BWIC Yato1 B100 head unit, Android 9 (AC8257). Disable only: pm disable-user --user 0
+# Undo: lists/restore.sh <unit ip>   Take a snapshot first (see the skill).
+# Batch 1: unused apps (owner: keep none)
+com.accuweather.android
+com.estrongs.android.pop
+com.skype.m2
+radiotime.player
+com.google.android.gm
+com.google.android.calendar
+com.google.android.syncadapters.calendar
+# Batch 2: Google admin, Pinyin keyboard, telemetry, call recorder
+com.google.android.apps.enterprise.cpanel
+com.google.android.inputmethod.pinyin
+com.google.android.feedback
+com.google.android.partnersetup
+com.mediatek.callrecorder
+# Batch 3 (voice button went MCU->BwASR->TXZ; no fallback in BwASR): TXZ voice assistant and its helpers
+com.txznet.txz
+com.txznet.smartadapter
+com.baidu.map.location

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the head unit's built-in USB camera (0c45:64ab); nothing else -->
+    <usb-device vendor-id="3141" product-id="25771"/>
+</resources>

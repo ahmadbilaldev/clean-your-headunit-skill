@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.bilal.rspills" android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34"/>
+    <application android:label="@string/app_name" android:icon="@drawable/preview_clock" android:allowBackup="false">
+        <receiver android:name=".ClockPill" android:exported="true" android:label="@string/clock_name">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/><action android:name="dev.bilal.rspills.TICK"/><action android:name="android.intent.action.TIMEZONE_CHANGED"/><action android:name="android.intent.action.TIME_SET"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/clock_pill_info"/>
+        </receiver>
+        <receiver android:name=".RamPill" android:exported="true" android:label="@string/ram_name">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/><action android:name="dev.bilal.rspills.TICK"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/ram_pill_info"/>
+        </receiver>
+    </application>
+</manifest>
