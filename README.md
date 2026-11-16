@@ -1,14 +1,14 @@
 # clean-your-headunit
 
-Debloat and restyle an aftermarket Android car head unit over ADB, without root and without uninstalling
-anything. Worked out on a **BWIC "Yato1 B100"** unit (Autochips AC8257, Android 9, firmware
-`OS_Yato1_B100_01_V2.00.23`), the kind fitted in place of a factory radio.
+Clean your car's head unit with a modern UI and Apple-like widgets. Debloat and restyle an aftermarket Android car head unit over ADB, without root and without uninstalling
+anything. Worked out on a **2023 Honda Civic RS Turbo** fitted with a **BWIC "Yato1 B100"** head unit
+(Autochips AC8257, Android 9, firmware `OS_Yato1_B100_01_V2.00.23`).
 
 It contains the findings, the debloat list, the small apps built along the way, and an agent skill
 (`clean-your-headunit/`) that repeats the process on another unit.
 
 CarPlay and the steering-wheel voice button are in a second repo:
-[headunit-carplay-voicekey](https://github.com/ahmadbilaldev/headunit-carplay-voicekey).
+[headunit-carplay-with-shortcuts](https://github.com/ahmadbilaldev/headunit-carplay-with-shortcuts).
 
 | Home screen | App drawer |
 |---|---|
@@ -140,7 +140,7 @@ Then ask Claude Code to "clean up my car head unit" with the laptop on the same 
 
 ## Related
 
-- [headunit-carplay-voicekey](https://github.com/ahmadbilaldev/headunit-carplay-voicekey): native wired CarPlay and steering-wheel shortcuts on the same unit
+- [headunit-carplay-with-shortcuts](https://github.com/ahmadbilaldev/headunit-carplay-with-shortcuts): native wired CarPlay and steering-wheel shortcuts on the same unit
 - [clean-your-android-skill](https://github.com/ahmadbilaldev/clean-your-android-skill): the phone and TV version of this
 - [cleanyourtv](https://github.com/Gathin23/cleanyourtv): the project whose disable-only rules this follows
 
