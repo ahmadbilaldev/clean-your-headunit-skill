@@ -31,7 +31,7 @@ CarPlay and the steering-wheel voice button are in a second repo:
 | Fact | Value |
 |---|---|
 | Board | BWIC Yato1 B100, Autochips / MediaTek AC8257, arm64, 1.8 GB RAM |
-| Android | 9 (API 28), `userdebug`, `test-keys`, `ro.debuggable=1` |
+| Android | 9 (API 28) |
 | Screen | 1280x720 at density 320, so 640x360 dp, landscape only |
 | ADB | Over Wi-Fi on TCP 5555, with the laptop on the same network as the car |
 | Power | Key-off is a sleep, not a shutdown. `adb reboot` is the only real reboot |
