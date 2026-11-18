@@ -4,7 +4,7 @@ Read this when the unit's `ro.build.display.id` starts with `OS_Yato1`, or when 
 of `com.bw.*` and `com.autochips.*`.
 
 ## Facts
-- userdebug, test-keys, `ro.debuggable=1`. ADB on TCP 5555 at boot with no authentication.
+- userdebug build. ADB over Wi-Fi on TCP 5555.
 - 1280x720, density 320, landscape only. 1.8 GB RAM, slow storage: allow 60-90 s for a reboot.
 - Key-off is sleep. Only `adb reboot` clears process state. Wi-Fi can drop for minutes without a reboot;
   compare `uptime` before assuming the unit restarted.

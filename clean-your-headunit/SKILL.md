@@ -70,5 +70,5 @@ rest.
 ## Finish
 
 Tell the owner, in plain words: what was disabled and how to undo it, what was installed, what they
-must do themselves on the screen, and the security note that ADB on these units is usually open to
-the whole Wi-Fi network.
+must do themselves on the screen, and a reminder to switch network debugging off when finished if
+the unit offers that setting.
